@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Navbar from "@/components/navbar";
 
 export default function Home() {
     return (
-        <main className="container m-auto text-center">
-            <p className="text-5xl italic">COMERCIOS</p>
+        <main className="container text-center">
+            <Navbar/>
+            <h1 className="display-4">COMERCIOS</h1>
         </main>
     )
 }

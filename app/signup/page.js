@@ -1,7 +1,7 @@
 "use client"
 
-import Link from "next/link";
 import {useState} from "react"
+import Volver from "@/components/volver";
 
 export default function Signup() {
     const
@@ -9,87 +9,56 @@ export default function Signup() {
         [password, set_password] = useState(""),
         [tipo_cuenta, set_tipo_cuenta] = useState("usuario")
 
+    const signup = () => {
+        alert(email + " " + password + " " + tipo_cuenta)
+    }
+
     return (
-        <main className="bg-gray-700 relative flex flex-col items-center justify-center min-h-screen overflow-hidden">
-            <div className="w-full p-6 bg-white rounded-md shadow-md lg:max-w-xl border">
-                <h1 className="text-3xl font-bold text-center text-gray-700">Crea tu cuenta!</h1>
-                <form className="mt-6">
-                    <div className="mb-4">
-                        <label
-                            htmlFor="email"
-                            className="block text-sm font-semibold text-gray-800"
-                        >
-                            Email
-                        </label>
-                        <input
-                            required
-                            onChange={
+        <main className="container text-end">
+            <Volver/>
+
+            <div className="position-absolute top-50 start-50 translate-middle">
+                <h1 className="display-5 border-bottom border-primary mb-4 px-3">Crear una cuenta!</h1>
+
+                <form>
+                    <div className="input-group mb-3">
+                        <div className="form-floating">
+                            <input required type="text" className="form-control" id="email" placeholder="12345678F" onChange={
                                 (e) => {
                                     set_email(e.target.value)
                                 }
-                            }
-                            type="email"
-                            className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-gray-400 focus:ring-gray-300 focus:outline-none focus:ring focus:ring-opacity-40"
-                        />
-                    </div>
-
-                    <div className="mb-2">
-                        <label
-                            htmlFor="password"
-                            className="block text-sm font-semibold text-gray-800"
-                        >
-                            Password
-                        </label>
-                        <input
-                            required
-                            onChange={
-                                (e) => {
-                                    set_password(e.target.value)
-                                }
-                            }
-                            type="password"
-                            className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-gray-400 focus:ring-gray-300 focus:outline-none focus:ring focus:ring-opacity-40"
-                        />
-                    </div>
-
-                    <div className="mb-2">
-                        <label
-                            htmlFor="tipoCuenta"
-                            className="block text-sm font-semibold text-gray-800"
-                        >
-                            Tipo de cuenta
-                        </label>
+                            }/>
+                            <label htmlFor="email">Email</label>
+                        </div>
 
                         <select
                             onChange={(e) => {
                                 set_tipo_cuenta(e.target.value)
                             }}
-                            className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-gray-400 focus:ring-gray-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                            className="form-select"
                         >
-                            <option selected value="usuario">Usuario</option>
+                            <option value="usuario" hidden selected>Tipo de cuenta</option>
+                            <option value="usuario">Usuario</option>
                             <option value="admin">Administrador</option>
-                            <option value="comercio">Comercio</option>
                         </select>
                     </div>
 
-                    <div className="mt-2">
-                        <button
-                            onClick={() => {
-                                alert(email + " " + password + " " + tipo_cuenta)
-                            }}
-                            className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600"
-                        >
-                            Signup
-                        </button>
+                    <div className="form-floating mb-3">
+                        <input required type="password" className="form-control" id="password" placeholder="12345" onChange={
+                            (e) => {
+                                set_password(e.target.value)
+                            }
+                        }/>
+                        <label htmlFor="password">Password</label>
                     </div>
-                </form>
 
-                <p className="mt-4 text-sm text-center text-gray-700">
-                    Already have an account?{" "}
-                    <Link href="/login" className="font-medium text-blue-600 hover:underline">
-                        Log In
-                    </Link>
-                </p>
+                    <button onClick={
+                        () => {
+                            if (email.length > 0 && password.length > 0 && tipo_cuenta.length > 0) signup()
+                        }
+                    } className="btn btn-primary w-25" type="button">Signup
+                    </button>
+                </form>
             </div>
         </main>
     );
