@@ -23,7 +23,7 @@ export default function LoginComercio() {
                     <label htmlFor="cif">CIF</label>
                 </div>
 
-                <Link href={`/comercio/${cif}`} className="btn btn-primary w-25" type="button">Login</Link>
+                <Link href={`/comercio/${cif}/logged`} className="btn btn-primary w-25" type="button">Login</Link>
             </div>
         </main>
     );
