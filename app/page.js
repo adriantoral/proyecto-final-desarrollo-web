@@ -14,7 +14,6 @@ export default async function Home() {
     return (
         <main className="container text-center">
             <Navbar/>
-            <h1 className="display-4">COMERCIOS</h1>
             <ul className="list-group">
                 {
                     comercios.map((comercio) => {
