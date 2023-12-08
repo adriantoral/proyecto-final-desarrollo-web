@@ -2,9 +2,14 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import {useEffect} from "react";
 
 
 export default function Navbar() {
+    useEffect(() => {
+        require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    }, [])
+
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary z-3 mb-4">
             <div className="container-fluid">
