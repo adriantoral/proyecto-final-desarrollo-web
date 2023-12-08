@@ -10,7 +10,7 @@ export default async function HomeComercio({params}) {
             <Navbar/>
 
             <ul className="list-group">
-                <Comercio comercio={comercio.comercios}/>
+                <Comercio comercio={comercio.comercios} resumido={false}/>
             </ul>
         </main>
     )

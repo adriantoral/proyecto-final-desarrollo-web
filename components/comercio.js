@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-export default function Comercio({comercio}) {
+export default function Comercio({comercio, resumido = true}) {
     return (
-        <li className="list-group-item" key={comercio.cif}>
+        <li className="list-group-item">
             <Link className="display-6" href={`/comercio/${comercio.cif}`}>{comercio.titulo}</Link>
             <p>{
                 Array(comercio.estrellas).fill(undefined, undefined, undefined).map(() => {
@@ -13,6 +13,34 @@ export default function Comercio({comercio}) {
             }
             </p>
             <p className="lead">{comercio.resumen}</p>
+
+            <div className={resumido ? "d-none" : ""}>
+                <p className="display-6">Textos</p>
+                <ul className="list-group">
+                    {
+                        comercio.textos.map((texto) => (
+                            <li className="list-group-item">{texto}</li>
+                        ))
+                    }
+                </ul>
+                <p className="display-6">Fotos</p>
+                <ul className="list-group">
+                    {
+                        comercio.fotos.map((texto) => (
+                            <li className="list-group-item">{texto}</li>
+                        ))
+                    }
+                </ul>
+
+                <p className="display-6">Comentarios</p>
+                <ul className="list-group">
+                    {
+                        comercio.comentarios.map((texto) => (
+                            <li className="list-group-item">{texto}</li>
+                        ))
+                    }
+                </ul>
+            </div>
         </li>
     )
 }

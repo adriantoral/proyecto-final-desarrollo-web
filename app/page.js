@@ -1,24 +1,18 @@
 import Navbar from "@/components/navbar";
 import Comercio from "@/components/comercio";
-
-async function get_comercios() {
-    const res = await fetch("http://localhost:3000/api/comercios")
-    const data = await res.json()
-    console.log(data.comercios)
-    return data.comercios
-}
+import {get_comercio} from "@/utils/utils";
 
 export default async function Home() {
-    const comercios = await get_comercios()
+    const comercios = await get_comercio()
 
     return (
         <main className="container text-center">
             <Navbar/>
             <ul className="list-group">
                 {
-                    comercios.map((comercio) => {
-                        return <Comercio comercio={comercio}></Comercio>
-                    })
+                    comercios.comercios.map((comercio) => (
+                        <Comercio comercio={comercio}/>
+                    ))
                 }
             </ul>
         </main>
