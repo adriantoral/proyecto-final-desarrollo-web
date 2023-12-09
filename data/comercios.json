@@ -1,0 +1,517 @@
+[
+  {
+    "cif": "B98765432",
+    "ciudad": "Barcelona",
+    "actividad": "Hostal",
+    "titulo": "Hostal Barcelona",
+    "resumen": "Alojamiento económico en el corazón de Barcelona",
+    "textos": [
+      "Bienvenido a nuestro acogedor hostal"
+    ],
+    "fotos": [
+      "exterior.jpg",
+      "habitacion1.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "comentario 1",
+      "hola",
+      "adios",
+      "adios"
+    ]
+  },
+  {
+    "cif": "C56789012",
+    "ciudad": "Valencia",
+    "actividad": "Apartamento",
+    "titulo": "Apartamento Valencia Beach",
+    "resumen": "Moderno apartamento cerca de la playa",
+    "textos": [
+      "Vive la experiencia en nuestro moderno apartamento"
+    ],
+    "fotos": [
+      "vista_mar.jpg",
+      "sala_estar.jpg"
+    ],
+    "estrellas": 5,
+    "comentarios": [
+      "Increíble vista al mar",
+      "Instalaciones impecables"
+    ]
+  },
+  {
+    "cif": "D34567890",
+    "ciudad": "Sevilla",
+    "actividad": "Hostería",
+    "titulo": "Hostería Sevillana",
+    "resumen": "Encanto andaluz en pleno centro de Sevilla",
+    "textos": [
+      "Descubre el encanto andaluz en nuestra hostería"
+    ],
+    "fotos": [
+      "patio_andaluz.jpg",
+      "habitacion_tipica.jpg"
+    ],
+    "estrellas": 3,
+    "comentarios": [
+      "Ambiente acogedor",
+      "Buena relación calidad-precio"
+    ]
+  },
+  {
+    "cif": "E12345678",
+    "ciudad": "Madrid",
+    "actividad": "Hotel",
+    "titulo": "Hotel Madrid",
+    "resumen": "Hotel de 5 estrellas en el centro de Madrid",
+    "textos": [
+      "Lujo y comodidad en pleno corazón de Madrid"
+    ],
+    "fotos": [
+      "lobby_lujoso.jpg",
+      "suite_ejecutiva.jpg"
+    ],
+    "estrellas": 5,
+    "comentarios": [
+      "Experiencia inolvidable",
+      "Servicio de primera clase"
+    ]
+  },
+  {
+    "cif": "F23456789",
+    "ciudad": "Bilbao",
+    "actividad": "Pensión",
+    "titulo": "Pensión Bilbao",
+    "resumen": "Alojamiento acogedor en el norte de España",
+    "textos": [
+      "Te damos la bienvenida a nuestra pensión en Bilbao"
+    ],
+    "fotos": [
+      "entrada_pension.jpg",
+      "habitacion_sencilla.jpg"
+    ],
+    "estrellas": 2,
+    "comentarios": [
+      "Sencillo pero cómodo",
+      "Precio asequible"
+    ]
+  },
+  {
+    "cif": "G34567890",
+    "ciudad": "Barcelona",
+    "actividad": "Hotel",
+    "titulo": "Hotel Catalunya",
+    "resumen": "Elegancia y confort en la Ciudad Condal",
+    "textos": [
+      "Descubre la elegancia en el corazón de Barcelona"
+    ],
+    "fotos": [
+      "terraza_panoramica.jpg",
+      "habitacion_lujosa.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Ubicación privilegiada",
+      "Atención al cliente excepcional"
+    ]
+  },
+  {
+    "cif": "H45678901",
+    "ciudad": "Granada",
+    "actividad": "Hostal",
+    "titulo": "Hostal Alhambra",
+    "resumen": "Encanto andalusí a los pies de la Alhambra",
+    "textos": [
+      "Sumérgete en el encanto andalusí en nuestro hostal"
+    ],
+    "fotos": [
+      "patio_andalusi.jpg",
+      "vista_alhambra.jpg"
+    ],
+    "estrellas": 3,
+    "comentarios": [
+      "Vistas impresionantes",
+      "Ambiente pintoresco"
+    ]
+  },
+  {
+    "cif": "I56789012",
+    "ciudad": "Valencia",
+    "actividad": "Hotel",
+    "titulo": "Hotel Playa Azul",
+    "resumen": "Experiencia costera de lujo en Valencia",
+    "textos": [
+      "Disfruta de la serenidad en nuestro hotel frente al mar"
+    ],
+    "fotos": [
+      "playa_privada.jpg",
+      "habitacion_vista_mar.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Vistas impresionantes",
+      "Servicio de alta calidad"
+    ]
+  },
+  {
+    "cif": "J34567890",
+    "ciudad": "Sevilla",
+    "actividad": "Apartotel",
+    "titulo": "Apartotel Sevilla Suites",
+    "resumen": "Estancia cómoda y flexible en el corazón de Sevilla",
+    "textos": [
+      "La comodidad de un hotel, la flexibilidad de un apartamento"
+    ],
+    "fotos": [
+      "piscina_rooftop.jpg",
+      "suite_moderna.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Ubicación estratégica",
+      "Instalaciones modernas"
+    ]
+  },
+  {
+    "cif": "K12345678",
+    "ciudad": "Madrid",
+    "actividad": "Hostal",
+    "titulo": "Hostal Madrid Centro",
+    "resumen": "Alojamiento acogedor en el corazón de la capital",
+    "textos": [
+      "Bienvenido a nuestro hostal en el centro de Madrid"
+    ],
+    "fotos": [
+      "terraza_chillout.jpg",
+      "habitacion_confortable.jpg"
+    ],
+    "estrellas": 3,
+    "comentarios": [
+      "Ambiente cálido",
+      "Buena relación calidad-precio"
+    ]
+  },
+  {
+    "cif": "L23456789",
+    "ciudad": "Bilbao",
+    "actividad": "Hotel",
+    "titulo": "Hotel Bilbao Bay",
+    "resumen": "Elegancia contemporánea en la costa norte",
+    "textos": [
+      "Descubre la moderna elegancia a orillas del Cantábrico"
+    ],
+    "fotos": [
+      "lobby_vanguardista.jpg",
+      "suite_vistas_mar.jpg"
+    ],
+    "estrellas": 5,
+    "comentarios": [
+      "Exclusividad garantizada",
+      "Gastronomía de primera"
+    ]
+  },
+  {
+    "cif": "M34567890",
+    "ciudad": "Barcelona",
+    "actividad": "Hostal",
+    "titulo": "Hostal Gótico",
+    "resumen": "Encanto medieval en el Barrio Gótico",
+    "textos": [
+      "Sumérgete en la historia en nuestro hostal del Barrio Gótico"
+    ],
+    "fotos": [
+      "calles_goticas.jpg",
+      "habitacion_medieval.jpg"
+    ],
+    "estrellas": 3,
+    "comentarios": [
+      "Atmósfera única",
+      "Cercanía a lugares emblemáticos"
+    ]
+  },
+  {
+    "cif": "N45678901",
+    "ciudad": "Granada",
+    "actividad": "Hotel",
+    "titulo": "Hotel Sierra Nevada",
+    "resumen": "Lujo en las alturas de la Sierra Nevada",
+    "textos": [
+      "Vive la experiencia única de nuestro hotel de montaña"
+    ],
+    "fotos": [
+      "vistas_sierra_nevada.jpg",
+      "spa_alpino.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Tranquilidad asegurada",
+      "Servicio personalizado"
+    ]
+  },
+  {
+    "cif": "O56789012",
+    "ciudad": "Valencia",
+    "actividad": "Pensión",
+    "titulo": "Pensión del Carmen",
+    "resumen": "Alojamiento tradicional en el corazón de Valencia",
+    "textos": [
+      "Bienvenido a la tradición en nuestra pensión céntrica"
+    ],
+    "fotos": [
+      "plaza_central.jpg",
+      "habitacion_acogedora.jpg"
+    ],
+    "estrellas": 2,
+    "comentarios": [
+      "Autenticidad garantizada",
+      "Precio asequible"
+    ]
+  },
+  {
+    "cif": "P12345678",
+    "ciudad": "Madrid",
+    "actividad": "Apartamento",
+    "titulo": "Apartamento Gran Vía",
+    "resumen": "Estilo y comodidad en pleno centro madrileño",
+    "textos": [
+      "Disfruta del lujo urbano en nuestro apartamento en Gran Vía"
+    ],
+    "fotos": [
+      "gran_via_iluminada.jpg",
+      "sala_estilo_moderno.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Ubicación estratégica",
+      "Diseño contemporáneo"
+    ]
+  },
+  {
+    "cif": "Q23456789",
+    "ciudad": "Bilbao",
+    "actividad": "Hostería",
+    "titulo": "Hostería Vasca",
+    "resumen": "Hospitalidad vasca en el corazón de Bilbao",
+    "textos": [
+      "Descubre la calidez de la hospitalidad vasca en nuestra hostería"
+    ],
+    "fotos": [
+      "txakoli_tradicional.jpg",
+      "habitacion_rustica.jpg"
+    ],
+    "estrellas": 3,
+    "comentarios": [
+      "Autenticidad garantizada",
+      "Gastronomía local"
+    ]
+  },
+  {
+    "cif": "R34567890",
+    "ciudad": "Barcelona",
+    "actividad": "Hotel",
+    "titulo": "Hotel Modernista",
+    "resumen": "Arquitectura modernista y confort en Barcelona",
+    "textos": [
+      "Vive el esplendor del modernismo en nuestro hotel"
+    ],
+    "fotos": [
+      "fachada_modernista.jpg",
+      "suite_lujosa.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Arquitectura única",
+      "Servicio de alta calidad"
+    ]
+  },
+  {
+    "cif": "I56789012",
+    "ciudad": "Valencia",
+    "actividad": "Hotel",
+    "titulo": "Hotel Playa Azul",
+    "resumen": "Experiencia costera de lujo en Valencia",
+    "textos": [
+      "Disfruta de la serenidad en nuestro hotel frente al mar"
+    ],
+    "fotos": [
+      "playa_privada.jpg",
+      "habitacion_vista_mar.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Vistas impresionantes",
+      "Servicio de alta calidad"
+    ]
+  },
+  {
+    "cif": "J34567890",
+    "ciudad": "Sevilla",
+    "actividad": "Apartotel",
+    "titulo": "Apartotel Sevilla Suites",
+    "resumen": "Estancia cómoda y flexible en el corazón de Sevilla",
+    "textos": [
+      "La comodidad de un hotel, la flexibilidad de un apartamento"
+    ],
+    "fotos": [
+      "piscina_rooftop.jpg",
+      "suite_moderna.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Ubicación estratégica",
+      "Instalaciones modernas"
+    ]
+  },
+  {
+    "cif": "K12345678",
+    "ciudad": "Madrid",
+    "actividad": "Hostal",
+    "titulo": "Hostal Madrid Centro",
+    "resumen": "Alojamiento acogedor en el corazón de la capital",
+    "textos": [
+      "Bienvenido a nuestro hostal en el centro de Madrid"
+    ],
+    "fotos": [
+      "terraza_chillout.jpg",
+      "habitacion_confortable.jpg"
+    ],
+    "estrellas": 3,
+    "comentarios": [
+      "Ambiente cálido",
+      "Buena relación calidad-precio"
+    ]
+  },
+  {
+    "cif": "L23456789",
+    "ciudad": "Bilbao",
+    "actividad": "Hotel",
+    "titulo": "Hotel Bilbao Bay",
+    "resumen": "Elegancia contemporánea en la costa norte",
+    "textos": [
+      "Descubre la moderna elegancia a orillas del Cantábrico"
+    ],
+    "fotos": [
+      "lobby_vanguardista.jpg",
+      "suite_vistas_mar.jpg"
+    ],
+    "estrellas": 5,
+    "comentarios": [
+      "Exclusividad garantizada",
+      "Gastronomía de primera"
+    ]
+  },
+  {
+    "cif": "M34567890",
+    "ciudad": "Barcelona",
+    "actividad": "Hostal",
+    "titulo": "Hostal Gótico",
+    "resumen": "Encanto medieval en el Barrio Gótico",
+    "textos": [
+      "Sumérgete en la historia en nuestro hostal del Barrio Gótico"
+    ],
+    "fotos": [
+      "calles_goticas.jpg",
+      "habitacion_medieval.jpg"
+    ],
+    "estrellas": 3,
+    "comentarios": [
+      "Atmósfera única",
+      "Cercanía a lugares emblemáticos"
+    ]
+  },
+  {
+    "cif": "N45678901",
+    "ciudad": "Granada",
+    "actividad": "Hotel",
+    "titulo": "Hotel Sierra Nevada",
+    "resumen": "Lujo en las alturas de la Sierra Nevada",
+    "textos": [
+      "Vive la experiencia única de nuestro hotel de montaña"
+    ],
+    "fotos": [
+      "vistas_sierra_nevada.jpg",
+      "spa_alpino.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Tranquilidad asegurada",
+      "Servicio personalizado"
+    ]
+  },
+  {
+    "cif": "O56789012",
+    "ciudad": "Valencia",
+    "actividad": "Pensión",
+    "titulo": "Pensión del Carmen",
+    "resumen": "Alojamiento tradicional en el corazón de Valencia",
+    "textos": [
+      "Bienvenido a la tradición en nuestra pensión céntrica"
+    ],
+    "fotos": [
+      "plaza_central.jpg",
+      "habitacion_acogedora.jpg"
+    ],
+    "estrellas": 2,
+    "comentarios": [
+      "Autenticidad garantizada",
+      "Precio asequible"
+    ]
+  },
+  {
+    "cif": "P12345678",
+    "ciudad": "Madrid",
+    "actividad": "Apartamento",
+    "titulo": "Apartamento Gran Vía",
+    "resumen": "Estilo y comodidad en pleno centro madrileño",
+    "textos": [
+      "Disfruta del lujo urbano en nuestro apartamento en Gran Vía"
+    ],
+    "fotos": [
+      "gran_via_iluminada.jpg",
+      "sala_estilo_moderno.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Ubicación estratégica",
+      "Diseño contemporáneo"
+    ]
+  },
+  {
+    "cif": "Q23456789",
+    "ciudad": "Bilbao",
+    "actividad": "Hostería",
+    "titulo": "Hostería Vasca",
+    "resumen": "Hospitalidad vasca en el corazón de Bilbao",
+    "textos": [
+      "Descubre la calidez de la hospitalidad vasca en nuestra hostería"
+    ],
+    "fotos": [
+      "txakoli_tradicional.jpg",
+      "habitacion_rustica.jpg"
+    ],
+    "estrellas": 3,
+    "comentarios": [
+      "Autenticidad garantizada",
+      "Gastronomía local"
+    ]
+  },
+  {
+    "cif": "R34567890",
+    "ciudad": "Barcelona",
+    "actividad": "Hotel",
+    "titulo": "Hotel Modernista",
+    "resumen": "Arquitectura modernista y confort en Barcelona",
+    "textos": [
+      "Vive el esplendor del modernismo en nuestro hotel"
+    ],
+    "fotos": [
+      "fachada_modernista.jpg",
+      "suite_lujosa.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Arquitectura única",
+      "Servicio de alta calidad"
+    ]
+  }
+]

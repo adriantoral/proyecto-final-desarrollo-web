@@ -3,12 +3,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import {useEffect, useRef, useState} from "react";
+import {useRouter} from "next/navigation";
 
 
 export default function Navbar() {
     const [logeado, set_logeado] = useState(localStorage.getItem("email")),
         [admin, set_admin] = useState(localStorage.getItem("tipo") === "admin"),
-        alerta = useRef()
+        alerta = useRef(),
+        router = useRouter()
 
     const logout = () => {
         localStorage.removeItem("email")
@@ -17,6 +19,7 @@ export default function Navbar() {
             alerta.current.classList.add("d-none")
         }, 3000)
         set_logeado(undefined)
+        router.refresh()
     }
 
     useEffect(() => {
@@ -56,6 +59,10 @@ export default function Navbar() {
                 <div className={logeado && !admin ? "collapse navbar-collapse" : "d-none"} id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
+                            <button className="nav-link">Cuenta: {localStorage.getItem('email')}</button>
+                        </li>
+
+                        <li className="nav-item">
                             <button className="nav-link" onClick={logout}>Logout</button>
                         </li>
                     </ul>
@@ -65,7 +72,13 @@ export default function Navbar() {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <Link className="nav-link" href="/admin">Administración</Link>
+                        </li>
 
+                        <li className="nav-item">
+                            <button className="nav-link">Cuenta: {localStorage.getItem('email')}</button>
+                        </li>
+
+                        <li className="nav-item">
                             <button className="nav-link" onClick={logout}>Logout</button>
                         </li>
                     </ul>

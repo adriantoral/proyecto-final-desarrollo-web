@@ -7,6 +7,8 @@ import {useRouter} from "next/navigation";
 export default function Signup() {
     const
         [email, set_email] = useState(""),
+        [ciudad, set_ciudad] = useState(""),
+        [publicidad, set_publicidad] = useState(true),
         [password, set_password] = useState(""),
         [tipo_cuenta, set_tipo_cuenta] = useState("user"),
         alerta = useRef(),
@@ -18,6 +20,8 @@ export default function Signup() {
 
         const user = {
             email: email,
+            ciudad: ciudad,
+            publicidad: publicidad,
             password: password,
             tipo: tipo_cuenta
         }
@@ -48,7 +52,7 @@ export default function Signup() {
     }
 
     return (
-        <main className="container text-end">
+        <main className="container">
             <Volver/>
 
             <div className="d-none position-fixed top-0 end-0 mt-3 me-3 bg-success border border-black border-1 rounded p-3" ref={alerta}>
@@ -79,16 +83,37 @@ export default function Signup() {
                             <label htmlFor="email">Email</label>
                         </div>
 
-                        <select
-                            onChange={(e) => {
-                                set_tipo_cuenta(e.target.value)
-                            }}
-                            className="form-select"
-                        >
-                            <option defaultValue="user" hidden>Usuario</option>
-                            <option value="user">Usuario</option>
-                            <option value="admin">Administrador</option>
-                        </select>
+                        <div className="form-floating">
+                            <select
+                                onChange={(e) => {
+                                    set_tipo_cuenta(e.target.value)
+                                }}
+                                className="form-select"
+                                id="tipo"
+                            >
+                                <option defaultValue="user" hidden>Usuario</option>
+                                <option value="user">Usuario</option>
+                                <option value="admin">Administrador</option>
+                            </select>
+                            <label htmlFor="tipo">Selecciona tipo de usuario</label>
+                        </div>
+                    </div>
+
+                    <div className="form-floating">
+                        <input required type="text" className="form-control" id="ciudad" placeholder="Madrid" onChange={
+                            (e) => {
+                                set_ciudad(e.target.value)
+                            }
+                        }/>
+                        <label htmlFor="ciudad">Ciudad</label>
+                    </div>
+
+                    <div className="form-check form-switch">
+                        <input className="form-check-input" type="checkbox" role="switch" id="permisos" defaultChecked
+                               onChange={() => {
+                                   set_publicidad(!publicidad)
+                               }}></input>
+                        <label className="form-check-label" htmlFor="permisos">Permitir que los comercios te manden ofertas</label>
                     </div>
 
                     <div className="form-floating mb-3">

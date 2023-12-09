@@ -4,10 +4,12 @@ import {readFileSync, writeFileSync} from 'fs';
 export async function POST(request) {
     const data = await request.json()
     try {
-        const users = JSON.parse(readFileSync("data/users.json"))
-        writeFileSync("data/users.json", JSON.stringify([...users, data]))
+        const comercios = JSON.parse(readFileSync("data/comercios.json"))
+        comercios.find((comercio) => comercio.cif === data.cif).comentarios.push(data.comentario)
+        writeFileSync("data/comercios.json", JSON.stringify([...comercios]))
     } catch (e) {
-        writeFileSync("data/users.json", JSON.stringify([data]))
+
     }
+
     return NextResponse.json({message: "Guardando datos...", status: 200})
 }

@@ -3,7 +3,7 @@ import {readFileSync} from 'fs';
 
 export async function GET() {
     try {
-        const users = JSON.parse(readFileSync("data/users.txt"))
+        const users = JSON.parse(readFileSync("data/users.json"))
         console.log(users)
         return NextResponse.json({users})
     } catch (e) {

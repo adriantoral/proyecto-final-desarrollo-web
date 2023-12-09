@@ -1,0 +1,9 @@
+[
+  {
+    "email": "adrian",
+    "ciudad": "Madrid",
+    "publicidad": true,
+    "password": "adrian",
+    "tipo": "admin"
+  }
+]

@@ -6,7 +6,7 @@ export default async function HomeComercioLogged({params}) {
     const comercios = await get_comercio(params.cif)
 
     if (comercios.status === 200) {
-        const comercio = comercios.comercios
+        const comercio = comercios.comercios[0]
 
         return (
             <main className="container">
