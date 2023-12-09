@@ -1,5 +1,62 @@
 [
   {
+    "cif": "B12345678",
+    "ciudad": "Barcelona",
+    "actividad": "Hotel",
+    "titulo": "Hotel Estrella",
+    "resumen": "Experiencia de lujo en el corazón de la ciudad.",
+    "textos": [
+      "Bienvenido a nuestro lujoso hotel"
+    ],
+    "fotos": [
+      "fachada.jpg",
+      "suite1.jpg"
+    ],
+    "estrellas": 5,
+    "comentarios": [
+      "Increíble experiencia",
+      "Volveré"
+    ]
+  },
+  {
+    "cif": "B87654321",
+    "ciudad": "Madrid",
+    "actividad": "Restaurante",
+    "titulo": "Gastronomía Deliciosa",
+    "resumen": "Sabores únicos en cada plato.",
+    "textos": [
+      "Descubre nuestra exquisita cocina"
+    ],
+    "fotos": [
+      "interior.jpg",
+      "plato_principal.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Delicioso",
+      "Ambiente acogedor"
+    ]
+  },
+  {
+    "cif": "B56789012",
+    "ciudad": "Valencia",
+    "actividad": "Tienda de Ropa",
+    "titulo": "Moda Trendy",
+    "resumen": "Últimas tendencias a tu alcance.",
+    "textos": [
+      "Explora nuestro catálogo de moda"
+    ],
+    "fotos": [
+      "ropa_variada.jpg",
+      "probadores.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Variedad de estilos",
+      "Buen servicio"
+    ]
+  },
+  {
     "cif": "B98765432",
     "ciudad": "Barcelona",
     "actividad": "Hostal",
@@ -21,497 +78,307 @@
     ]
   },
   {
-    "cif": "C56789012",
-    "ciudad": "Valencia",
-    "actividad": "Apartamento",
-    "titulo": "Apartamento Valencia Beach",
-    "resumen": "Moderno apartamento cerca de la playa",
-    "textos": [
-      "Vive la experiencia en nuestro moderno apartamento"
-    ],
-    "fotos": [
-      "vista_mar.jpg",
-      "sala_estar.jpg"
-    ],
-    "estrellas": 5,
-    "comentarios": [
-      "Increíble vista al mar",
-      "Instalaciones impecables"
-    ]
-  },
-  {
-    "cif": "D34567890",
+    "cif": "B13579246",
     "ciudad": "Sevilla",
-    "actividad": "Hostería",
-    "titulo": "Hostería Sevillana",
-    "resumen": "Encanto andaluz en pleno centro de Sevilla",
+    "actividad": "Cafetería",
+    "titulo": "Coffee Break",
+    "resumen": "Disfruta de un descanso con nuestro café especial.",
     "textos": [
-      "Descubre el encanto andaluz en nuestra hostería"
+      "Prueba nuestra selección de cafés"
     ],
     "fotos": [
-      "patio_andaluz.jpg",
-      "habitacion_tipica.jpg"
+      "cafeteria_entrada.jpg",
+      "cafe_espresso.jpg"
     ],
     "estrellas": 3,
     "comentarios": [
-      "Ambiente acogedor",
-      "Buena relación calidad-precio"
+      "Buena atención",
+      "Ambiente relajado"
     ]
   },
   {
-    "cif": "E12345678",
-    "ciudad": "Madrid",
-    "actividad": "Hotel",
-    "titulo": "Hotel Madrid",
-    "resumen": "Hotel de 5 estrellas en el centro de Madrid",
-    "textos": [
-      "Lujo y comodidad en pleno corazón de Madrid"
-    ],
-    "fotos": [
-      "lobby_lujoso.jpg",
-      "suite_ejecutiva.jpg"
-    ],
-    "estrellas": 5,
-    "comentarios": [
-      "Experiencia inolvidable",
-      "Servicio de primera clase"
-    ]
-  },
-  {
-    "cif": "F23456789",
-    "ciudad": "Bilbao",
-    "actividad": "Pensión",
-    "titulo": "Pensión Bilbao",
-    "resumen": "Alojamiento acogedor en el norte de España",
-    "textos": [
-      "Te damos la bienvenida a nuestra pensión en Bilbao"
-    ],
-    "fotos": [
-      "entrada_pension.jpg",
-      "habitacion_sencilla.jpg"
-    ],
-    "estrellas": 2,
-    "comentarios": [
-      "Sencillo pero cómodo",
-      "Precio asequible"
-    ]
-  },
-  {
-    "cif": "G34567890",
+    "cif": "B24680135",
     "ciudad": "Barcelona",
-    "actividad": "Hotel",
-    "titulo": "Hotel Catalunya",
-    "resumen": "Elegancia y confort en la Ciudad Condal",
+    "actividad": "Spa",
+    "titulo": "Relax Total",
+    "resumen": "Desconecta y rejuvenece en nuestro spa de lujo.",
     "textos": [
-      "Descubre la elegancia en el corazón de Barcelona"
+      "Descubre la paz y tranquilidad en nuestro spa"
     ],
     "fotos": [
-      "terraza_panoramica.jpg",
-      "habitacion_lujosa.jpg"
+      "spa_piscina.jpg",
+      "masaje.jpg"
     ],
     "estrellas": 4,
     "comentarios": [
-      "Ubicación privilegiada",
-      "Atención al cliente excepcional"
+      "Experiencia relajante",
+      "Profesionales"
     ]
   },
   {
-    "cif": "H45678901",
-    "ciudad": "Granada",
-    "actividad": "Hostal",
-    "titulo": "Hostal Alhambra",
-    "resumen": "Encanto andalusí a los pies de la Alhambra",
+    "cif": "B36925814",
+    "ciudad": "Madrid",
+    "actividad": "Librería",
+    "titulo": "Libros Fascinantes",
+    "resumen": "Explora el mundo a través de nuestras páginas.",
     "textos": [
-      "Sumérgete en el encanto andalusí en nuestro hostal"
+      "Sumérgete en la magia de la lectura"
     ],
     "fotos": [
-      "patio_andalusi.jpg",
-      "vista_alhambra.jpg"
+      "libreria_interior.jpg",
+      "libros_variados.jpg"
     ],
-    "estrellas": 3,
+    "estrellas": 4,
     "comentarios": [
-      "Vistas impresionantes",
-      "Ambiente pintoresco"
+      "Amplia selección",
+      "Ambiente acogedor"
     ]
   },
   {
-    "cif": "I56789012",
+    "cif": "B48121639",
     "ciudad": "Valencia",
-    "actividad": "Hotel",
-    "titulo": "Hotel Playa Azul",
-    "resumen": "Experiencia costera de lujo en Valencia",
+    "actividad": "Gimnasio",
+    "titulo": "Fitness Plus",
+    "resumen": "Alcanza tus metas de salud y bienestar con nosotros.",
     "textos": [
-      "Disfruta de la serenidad en nuestro hotel frente al mar"
+      "Descubre el poder del fitness"
     ],
     "fotos": [
-      "playa_privada.jpg",
-      "habitacion_vista_mar.jpg"
+      "gimnasio_maquinas.jpg",
+      "clases_yoga.jpg"
     ],
     "estrellas": 4,
     "comentarios": [
-      "Vistas impresionantes",
-      "Servicio de alta calidad"
+      "Equipamiento de calidad",
+      "Entrenadores expertos"
     ]
   },
   {
-    "cif": "J34567890",
+    "cif": "B51015203",
+    "ciudad": "Barcelona",
+    "actividad": "Tienda de Electrónica",
+    "titulo": "Tecnología Innovadora",
+    "resumen": "Explora lo último en gadgets y dispositivos electrónicos.",
+    "textos": [
+      "Descubre la revolución tecnológica"
+    ],
+    "fotos": [
+      "tienda_electronica.jpg",
+      "dispositivos_variados.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Productos de calidad",
+      "Asesoramiento experto"
+    ]
+  },
+  {
+    "cif": "B61320159",
     "ciudad": "Sevilla",
-    "actividad": "Apartotel",
-    "titulo": "Apartotel Sevilla Suites",
-    "resumen": "Estancia cómoda y flexible en el corazón de Sevilla",
+    "actividad": "Museo de Arte",
+    "titulo": "Arte en Vivo",
+    "resumen": "Sumérgete en el arte contemporáneo y clásico.",
     "textos": [
-      "La comodidad de un hotel, la flexibilidad de un apartamento"
+      "Explora nuestras fascinantes exhibiciones"
     ],
     "fotos": [
-      "piscina_rooftop.jpg",
-      "suite_moderna.jpg"
-    ],
-    "estrellas": 4,
-    "comentarios": [
-      "Ubicación estratégica",
-      "Instalaciones modernas"
-    ]
-  },
-  {
-    "cif": "K12345678",
-    "ciudad": "Madrid",
-    "actividad": "Hostal",
-    "titulo": "Hostal Madrid Centro",
-    "resumen": "Alojamiento acogedor en el corazón de la capital",
-    "textos": [
-      "Bienvenido a nuestro hostal en el centro de Madrid"
-    ],
-    "fotos": [
-      "terraza_chillout.jpg",
-      "habitacion_confortable.jpg"
-    ],
-    "estrellas": 3,
-    "comentarios": [
-      "Ambiente cálido",
-      "Buena relación calidad-precio"
-    ]
-  },
-  {
-    "cif": "L23456789",
-    "ciudad": "Bilbao",
-    "actividad": "Hotel",
-    "titulo": "Hotel Bilbao Bay",
-    "resumen": "Elegancia contemporánea en la costa norte",
-    "textos": [
-      "Descubre la moderna elegancia a orillas del Cantábrico"
-    ],
-    "fotos": [
-      "lobby_vanguardista.jpg",
-      "suite_vistas_mar.jpg"
+      "museo_arte_interior.jpg",
+      "obras_destacadas.jpg"
     ],
     "estrellas": 5,
     "comentarios": [
-      "Exclusividad garantizada",
-      "Gastronomía de primera"
+      "Experiencia cultural única",
+      "Obras impresionantes"
     ]
   },
   {
-    "cif": "M34567890",
-    "ciudad": "Barcelona",
-    "actividad": "Hostal",
-    "titulo": "Hostal Gótico",
-    "resumen": "Encanto medieval en el Barrio Gótico",
+    "cif": "B71628214",
+    "ciudad": "Madrid",
+    "actividad": "Teatro",
+    "titulo": "Espectáculos de Broadway",
+    "resumen": "Vive la magia del teatro con nuestras producciones.",
     "textos": [
-      "Sumérgete en la historia en nuestro hostal del Barrio Gótico"
+      "Disfruta de noches inolvidables en nuestro teatro"
     ],
     "fotos": [
-      "calles_goticas.jpg",
-      "habitacion_medieval.jpg"
+      "teatro_interior.jpg",
+      "actuacion.jpg"
     ],
-    "estrellas": 3,
+    "estrellas": 5,
     "comentarios": [
-      "Atmósfera única",
-      "Cercanía a lugares emblemáticos"
+      "Actuaciones asombrosas",
+      "Ambiente teatral"
     ]
   },
   {
-    "cif": "N45678901",
-    "ciudad": "Granada",
-    "actividad": "Hotel",
-    "titulo": "Hotel Sierra Nevada",
-    "resumen": "Lujo en las alturas de la Sierra Nevada",
+    "cif": "B81932468",
+    "ciudad": "Valencia",
+    "actividad": "Peluquería",
+    "titulo": "Estilo Único",
+    "resumen": "Transforma tu imagen con nuestros estilistas expertos.",
     "textos": [
-      "Vive la experiencia única de nuestro hotel de montaña"
+      "Descubre el poder de un nuevo look"
     ],
     "fotos": [
-      "vistas_sierra_nevada.jpg",
-      "spa_alpino.jpg"
+      "peluqueria_interior.jpg",
+      "corte_peinado.jpg"
     ],
     "estrellas": 4,
     "comentarios": [
-      "Tranquilidad asegurada",
+      "Profesionales talentosos",
       "Servicio personalizado"
     ]
   },
   {
-    "cif": "O56789012",
-    "ciudad": "Valencia",
-    "actividad": "Pensión",
-    "titulo": "Pensión del Carmen",
-    "resumen": "Alojamiento tradicional en el corazón de Valencia",
-    "textos": [
-      "Bienvenido a la tradición en nuestra pensión céntrica"
-    ],
-    "fotos": [
-      "plaza_central.jpg",
-      "habitacion_acogedora.jpg"
-    ],
-    "estrellas": 2,
-    "comentarios": [
-      "Autenticidad garantizada",
-      "Precio asequible"
-    ]
-  },
-  {
-    "cif": "P12345678",
-    "ciudad": "Madrid",
-    "actividad": "Apartamento",
-    "titulo": "Apartamento Gran Vía",
-    "resumen": "Estilo y comodidad en pleno centro madrileño",
-    "textos": [
-      "Disfruta del lujo urbano en nuestro apartamento en Gran Vía"
-    ],
-    "fotos": [
-      "gran_via_iluminada.jpg",
-      "sala_estilo_moderno.jpg"
-    ],
-    "estrellas": 4,
-    "comentarios": [
-      "Ubicación estratégica",
-      "Diseño contemporáneo"
-    ]
-  },
-  {
-    "cif": "Q23456789",
-    "ciudad": "Bilbao",
-    "actividad": "Hostería",
-    "titulo": "Hostería Vasca",
-    "resumen": "Hospitalidad vasca en el corazón de Bilbao",
-    "textos": [
-      "Descubre la calidez de la hospitalidad vasca en nuestra hostería"
-    ],
-    "fotos": [
-      "txakoli_tradicional.jpg",
-      "habitacion_rustica.jpg"
-    ],
-    "estrellas": 3,
-    "comentarios": [
-      "Autenticidad garantizada",
-      "Gastronomía local"
-    ]
-  },
-  {
-    "cif": "R34567890",
+    "cif": "B92235647",
     "ciudad": "Barcelona",
-    "actividad": "Hotel",
-    "titulo": "Hotel Modernista",
-    "resumen": "Arquitectura modernista y confort en Barcelona",
+    "actividad": "Agencia de Viajes",
+    "titulo": "Viajes Exóticos",
+    "resumen": "Descubre destinos increíbles con nosotros.",
     "textos": [
-      "Vive el esplendor del modernismo en nuestro hotel"
+      "Planifica tu próxima aventura con nosotros"
     ],
     "fotos": [
-      "fachada_modernista.jpg",
-      "suite_lujosa.jpg"
+      "agencia_viajes_interior.jpg",
+      "destinos_variados.jpg"
     ],
     "estrellas": 4,
     "comentarios": [
-      "Arquitectura única",
-      "Servicio de alta calidad"
+      "Organización impecable",
+      "Experiencias inolvidables"
     ]
   },
   {
-    "cif": "I56789012",
-    "ciudad": "Valencia",
-    "actividad": "Hotel",
-    "titulo": "Hotel Playa Azul",
-    "resumen": "Experiencia costera de lujo en Valencia",
-    "textos": [
-      "Disfruta de la serenidad en nuestro hotel frente al mar"
-    ],
-    "fotos": [
-      "playa_privada.jpg",
-      "habitacion_vista_mar.jpg"
-    ],
-    "estrellas": 4,
-    "comentarios": [
-      "Vistas impresionantes",
-      "Servicio de alta calidad"
-    ]
-  },
-  {
-    "cif": "J34567890",
+    "cif": "B10244856",
     "ciudad": "Sevilla",
-    "actividad": "Apartotel",
-    "titulo": "Apartotel Sevilla Suites",
-    "resumen": "Estancia cómoda y flexible en el corazón de Sevilla",
+    "actividad": "Cine",
+    "titulo": "Cinearte",
+    "resumen": "Disfruta de películas de autor y clásicos en nuestra sala.",
     "textos": [
-      "La comodidad de un hotel, la flexibilidad de un apartamento"
+      "Sumérgete en el mundo del cine de calidad"
     ],
     "fotos": [
-      "piscina_rooftop.jpg",
-      "suite_moderna.jpg"
+      "cine_sala.jpg",
+      "peliculas_variadas.jpg"
     ],
     "estrellas": 4,
     "comentarios": [
-      "Ubicación estratégica",
-      "Instalaciones modernas"
+      "Selección cinematográfica única",
+      "Ambiente acogedor"
     ]
   },
   {
-    "cif": "K12345678",
+    "cif": "B11347265",
     "ciudad": "Madrid",
-    "actividad": "Hostal",
-    "titulo": "Hostal Madrid Centro",
-    "resumen": "Alojamiento acogedor en el corazón de la capital",
+    "actividad": "Panadería",
+    "titulo": "Arte del Pan",
+    "resumen": "Saborea la frescura y autenticidad de nuestros productos.",
     "textos": [
-      "Bienvenido a nuestro hostal en el centro de Madrid"
+      "Prueba nuestras delicias recién horneadas"
     ],
     "fotos": [
-      "terraza_chillout.jpg",
-      "habitacion_confortable.jpg"
+      "panaderia_interior.jpg",
+      "panes_variados.jpg"
     ],
-    "estrellas": 3,
+    "estrellas": 4,
     "comentarios": [
-      "Ambiente cálido",
-      "Buena relación calidad-precio"
+      "Pan de alta calidad",
+      "Atención amigable"
     ]
   },
   {
-    "cif": "L23456789",
-    "ciudad": "Bilbao",
-    "actividad": "Hotel",
-    "titulo": "Hotel Bilbao Bay",
-    "resumen": "Elegancia contemporánea en la costa norte",
+    "cif": "B12449674",
+    "ciudad": "Valencia",
+    "actividad": "Escuela de Idiomas",
+    "titulo": "LinguaMundo",
+    "resumen": "Aprende nuevos idiomas con métodos innovadores.",
     "textos": [
-      "Descubre la moderna elegancia a orillas del Cantábrico"
+      "Explora el mundo de los idiomas con nosotros"
     ],
     "fotos": [
-      "lobby_vanguardista.jpg",
-      "suite_vistas_mar.jpg"
+      "escuela_idiomas_aulas.jpg",
+      "profesores_estudiantes.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Enseñanza efectiva",
+      "Ambiente educativo"
+    ]
+  },
+  {
+    "cif": "B13552083",
+    "ciudad": "Barcelona",
+    "actividad": "Centro de Yoga",
+    "titulo": "Yoga Zen",
+    "resumen": "Encuentra equilibrio y bienestar en nuestro centro.",
+    "textos": [
+      "Conecta cuerpo y mente a través del yoga"
+    ],
+    "fotos": [
+      "yoga_espacio.jpg",
+      "clases_yoga.jpg"
+    ],
+    "estrellas": 4,
+    "comentarios": [
+      "Profesores expertos",
+      "Ambiente sereno"
+    ]
+  },
+  {
+    "cif": "B14654492",
+    "ciudad": "Sevilla",
+    "actividad": "Estudio de Diseño",
+    "titulo": "Creatividad Ilimitada",
+    "resumen": "Diseño innovador y soluciones creativas para tu proyecto.",
+    "textos": [
+      "Transforma tus ideas en realidad con nuestro equipo"
+    ],
+    "fotos": [
+      "estudio_diseno_espacio.jpg",
+      "proyectos_variados.jpg"
     ],
     "estrellas": 5,
     "comentarios": [
-      "Exclusividad garantizada",
-      "Gastronomía de primera"
+      "Diseño excepcional",
+      "Profesionales creativos"
     ]
   },
   {
-    "cif": "M34567890",
-    "ciudad": "Barcelona",
-    "actividad": "Hostal",
-    "titulo": "Hostal Gótico",
-    "resumen": "Encanto medieval en el Barrio Gótico",
-    "textos": [
-      "Sumérgete en la historia en nuestro hostal del Barrio Gótico"
-    ],
-    "fotos": [
-      "calles_goticas.jpg",
-      "habitacion_medieval.jpg"
-    ],
-    "estrellas": 3,
-    "comentarios": [
-      "Atmósfera única",
-      "Cercanía a lugares emblemáticos"
-    ]
-  },
-  {
-    "cif": "N45678901",
-    "ciudad": "Granada",
-    "actividad": "Hotel",
-    "titulo": "Hotel Sierra Nevada",
-    "resumen": "Lujo en las alturas de la Sierra Nevada",
-    "textos": [
-      "Vive la experiencia única de nuestro hotel de montaña"
-    ],
-    "fotos": [
-      "vistas_sierra_nevada.jpg",
-      "spa_alpino.jpg"
-    ],
-    "estrellas": 4,
-    "comentarios": [
-      "Tranquilidad asegurada",
-      "Servicio personalizado"
-    ]
-  },
-  {
-    "cif": "O56789012",
-    "ciudad": "Valencia",
-    "actividad": "Pensión",
-    "titulo": "Pensión del Carmen",
-    "resumen": "Alojamiento tradicional en el corazón de Valencia",
-    "textos": [
-      "Bienvenido a la tradición en nuestra pensión céntrica"
-    ],
-    "fotos": [
-      "plaza_central.jpg",
-      "habitacion_acogedora.jpg"
-    ],
-    "estrellas": 2,
-    "comentarios": [
-      "Autenticidad garantizada",
-      "Precio asequible"
-    ]
-  },
-  {
-    "cif": "P12345678",
+    "cif": "B15756901",
     "ciudad": "Madrid",
-    "actividad": "Apartamento",
-    "titulo": "Apartamento Gran Vía",
-    "resumen": "Estilo y comodidad en pleno centro madrileño",
+    "actividad": "Centro de Arte",
+    "titulo": "Arte en Movimiento",
+    "resumen": "Descubre la expresión artística en todas sus formas.",
     "textos": [
-      "Disfruta del lujo urbano en nuestro apartamento en Gran Vía"
+      "Explora nuestras exposiciones y eventos culturales"
     ],
     "fotos": [
-      "gran_via_iluminada.jpg",
-      "sala_estilo_moderno.jpg"
+      "centro_arte_espacio.jpg",
+      "obras_artistas.jpg"
     ],
     "estrellas": 4,
     "comentarios": [
-      "Ubicación estratégica",
-      "Diseño contemporáneo"
+      "Diversidad artística",
+      "Eventos emocionantes"
     ]
   },
   {
-    "cif": "Q23456789",
-    "ciudad": "Bilbao",
-    "actividad": "Hostería",
-    "titulo": "Hostería Vasca",
-    "resumen": "Hospitalidad vasca en el corazón de Bilbao",
+    "cif": "B16859310",
+    "ciudad": "Palencia",
+    "actividad": "Joyería2",
+    "titulo": "Joyas Elegantes",
+    "resumen": "Adorna tu vida con nuestras piezas únicas y elegantes.",
     "textos": [
-      "Descubre la calidez de la hospitalidad vasca en nuestra hostería"
+      "Descubre la belleza de nuestras joyas"
     ],
     "fotos": [
-      "txakoli_tradicional.jpg",
-      "habitacion_rustica.jpg"
-    ],
-    "estrellas": 3,
-    "comentarios": [
-      "Autenticidad garantizada",
-      "Gastronomía local"
-    ]
-  },
-  {
-    "cif": "R34567890",
-    "ciudad": "Barcelona",
-    "actividad": "Hotel",
-    "titulo": "Hotel Modernista",
-    "resumen": "Arquitectura modernista y confort en Barcelona",
-    "textos": [
-      "Vive el esplendor del modernismo en nuestro hotel"
-    ],
-    "fotos": [
-      "fachada_modernista.jpg",
-      "suite_lujosa.jpg"
+      "joyeria_interior.jpg",
+      "joyas_variadas.jpg"
     ],
     "estrellas": 4,
     "comentarios": [
-      "Arquitectura única",
-      "Servicio de alta calidad"
+      "Piezas de calidad",
+      "Atención personalizada"
     ]
   }
 ]

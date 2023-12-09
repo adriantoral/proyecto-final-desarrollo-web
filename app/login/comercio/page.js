@@ -2,10 +2,12 @@
 
 import {useState} from "react"
 import Volver from "@/components/volver";
-import Link from "next/link";
+import {useRouter} from "next/navigation";
 
 export default function LoginComercio() {
-    const [cif, set_cif] = useState("")
+    const
+        [cif, set_cif] = useState(""),
+        router = useRouter()
 
     return (
         <main className="container text-end">
@@ -23,7 +25,12 @@ export default function LoginComercio() {
                     <label htmlFor="cif">CIF</label>
                 </div>
 
-                <Link href={`/comercio/${cif}/logged`} className="btn btn-primary w-25" type="button">Login</Link>
+                <button onClick={
+                    () => {
+                        localStorage.setItem('cif', cif)
+                        router.push(`/comercio/${cif}/logged`)
+                    }
+                } className="btn btn-primary w-25" type="button">Login</button>
             </div>
         </main>
     );
