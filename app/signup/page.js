@@ -72,7 +72,7 @@ export default function HomeSignup() {
             <div className="position-absolute top-50 start-50 translate-middle">
                 <h1 className="display-5 border-bottom border-primary mb-4 px-3">Crear una cuenta!</h1>
 
-                <form onSubmit={signup}>
+                <form onSubmit={signup} className='text-end'>
                     <div className="input-group mb-3">
                         <div className="form-floating">
                             <input required type="text" className="form-control" id="email" placeholder="12345678F" onChange={
@@ -108,7 +108,7 @@ export default function HomeSignup() {
                         <label htmlFor="ciudad">Ciudad</label>
                     </div>
 
-                    <div className="form-check form-switch">
+                    <div className="form-check form-switch text-start">
                         <input className="form-check-input" type="checkbox" role="switch" id="permisos" defaultChecked
                                onChange={() => {
                                    set_publicidad(!publicidad)

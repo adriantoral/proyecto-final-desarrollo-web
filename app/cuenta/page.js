@@ -118,7 +118,7 @@ export default function HomeCuenta({params}) {
                 <div className="" ref={eliminado}>
                     <h1 className="text-center">Usuario {email}</h1>
 
-                    <form onSubmit={actualizar}>
+                    <form onSubmit={actualizar} className='text-end'>
                         <div className="input-group mb-3">
                             <div className="form-floating">
                                 <input readOnly required type="text" className="form-control" id="email" placeholder="12345678F" onChange={
@@ -154,7 +154,7 @@ export default function HomeCuenta({params}) {
                             <label htmlFor="ciudad">Ciudad</label>
                         </div>
 
-                        <div className="form-check form-switch">
+                        <div className="form-check form-switch text-start">
                             <input className="form-check-input" type="checkbox" role="switch" id="permisos" defaultChecked={usuario.publicidad}
                                    onChange={() => {
                                        set_publicidad(!publicidad)
@@ -171,8 +171,8 @@ export default function HomeCuenta({params}) {
                             <label htmlFor="password">Password</label>
                         </div>
 
-                        <button type="submit" className="btn btn-primary">Guardar</button>
-                        <button data-bs-toggle="modal" data-bs-target="#modal" type="button" className="btn btn-danger">Eliminar</button>
+                        <button type="submit" className="btn btn-primary me-1">Guardar</button>
+                        <button data-bs-toggle="modal" data-bs-target="#modal" type="button" className="btn btn-danger ms-1">Eliminar</button>
                     </form>
                 </div>
             </main>

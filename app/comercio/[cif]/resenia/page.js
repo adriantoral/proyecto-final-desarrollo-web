@@ -28,7 +28,7 @@ export default function HomeComercioComentario({params}) {
                     alerta.current.classList.remove("d-none")
                     setTimeout(() => {
                         router.push(`/comercio/${params.cif}`)
-                    }, 3000)
+                    }, 1000)
                 }
             })
     }
@@ -48,7 +48,7 @@ export default function HomeComercioComentario({params}) {
             <div>
                 <h1 className="display-5 border-bottom border-primary mb-4 px-3">Crear comentario para {params.cif}</h1>
 
-                <form onSubmit={resenia}>
+                <form onSubmit={resenia} className='text-end'>
                     <div className="input-group mb-3">
                         <div className="form-floating">
                             <input required type="text" className="form-control" id="comentario" placeholder="12345678F" onChange={

@@ -13,7 +13,7 @@ export default function HomeLoginUsuario() {
 
 
     const redirigir = (data) => {
-        console.log("Code", data.status)
+        // console.log("Code", data.status)
         if (data.status === 200) {
             // Aqui se guardara el JWT en vez del email
             localStorage.setItem("email", data.email)

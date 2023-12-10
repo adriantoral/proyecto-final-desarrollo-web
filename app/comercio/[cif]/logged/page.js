@@ -9,12 +9,15 @@ import {useRouter} from "next/navigation";
 export default function HomeComercioLogged({params}) {
     const
         [comercios, set_comercios] = useState([]),
+        [email, set_email] = useState(""),
+        [telf_contacto, set_telf_contacto] = useState(""),
         [ciudad, set_ciudad] = useState(""),
         [actividad, set_actividad] = useState(""),
         [titulo, set_titulo] = useState(""),
         [resumen, set_resumen] = useState(""),
         [textos, set_textos] = useState(""),
         [fotos, set_fotos] = useState(""),
+        [estrellas, set_estrellas] = useState(0),
         alerta = useRef(),
         eliminado = useRef(),
         eliminado2 = useRef(),
@@ -29,12 +32,15 @@ export default function HomeComercioLogged({params}) {
 
         const datos = {
             cif: comercios[0].cif,
+            email: email ? email : comercios[0].email,
+            telf_contacto: telf_contacto ? telf_contacto : comercios[0].telf_contacto,
             ciudad: ciudad ? ciudad : comercios[0].ciudad,
             actividad: actividad ? actividad : comercios[0].actividad,
             titulo: titulo ? titulo : comercios[0].titulo,
             resumen: resumen ? resumen : comercios[0].resumen,
             textos: textos ? textos.split(',') : comercios[0].textos,
             fotos: fotos ? fotos.split(',') : comercios[0].fotos,
+            estrellas: estrellas ? estrellas : comercios[0].estrellas,
         }
 
         fetch("/api/comercios", {
@@ -120,10 +126,28 @@ export default function HomeComercioLogged({params}) {
                 <div className="" ref={eliminado}>
                     <h1 className="text-center">Comercio {params.cif}</h1>
 
-                    <form onSubmit={actualizar}>
+                    <form onSubmit={actualizar} className='text-end'>
                         <div className="form-floating mb-3">
                             <input required readOnly type="text" className="form-control" id="cif" defaultValue={comercio.cif}/>
                             <label htmlFor="cif">CIF</label>
+                        </div>
+
+                        <div className="form-floating mb-3">
+                            <input onChange={(e) => set_email(e.target.value)}
+                                   required type="email" className="form-control" id="email" defaultValue={comercio.email}/>
+                            <label htmlFor="email">Email</label>
+                        </div>
+
+                        <div className="form-floating mb-3">
+                            <input onChange={(e) => set_telf_contacto(e.target.value)}
+                                   required type="text" className="form-control" id="telf_contacto" defaultValue={comercio.telf_contacto}/>
+                            <label htmlFor="telf_contacto">Telefono de contacto</label>
+                        </div>
+
+                        <div className="form-floating mb-3">
+                            <input onChange={(e) => set_estrellas(parseInt(e.target.value))}
+                                   type="number" className="form-control" min="0" max="5" id="estrellas" defaultValue={comercio.estrellas}></input>
+                            <label htmlFor="estrellas">Estrellas (0 - 5)</label>
                         </div>
 
                         <div className="form-floating mb-3">
@@ -162,8 +186,8 @@ export default function HomeComercioLogged({params}) {
                             <label htmlFor="fotos">Fotos (separadas por comas)</label>
                         </div>
 
-                        <button type="submit" className="btn btn-primary">Guardar</button>
-                        <button data-bs-toggle="modal" data-bs-target="#modal" type="button" className="btn btn-danger">Eliminar</button>
+                        <button type="submit" className="btn btn-primary me-1">Guardar</button>
+                        <button data-bs-toggle="modal" data-bs-target="#modal" type="button" className="btn btn-danger ms-1">Eliminar</button>
                     </form>
                 </div>
             </main>

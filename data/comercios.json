@@ -16,7 +16,9 @@
     "comentarios": [
       "Increíble experiencia",
       "Volveré"
-    ]
+    ],
+    "email": "info@hotelestrella.com",
+    "telf_contacto": "+34 123 456 789"
   },
   {
     "cif": "B87654321",
@@ -35,7 +37,9 @@
     "comentarios": [
       "Delicioso",
       "Ambiente acogedor"
-    ]
+    ],
+    "email": "reservas@gastrodeliciosa.com",
+    "telf_contacto": "+34 987 654 321"
   },
   {
     "cif": "B56789012",
@@ -54,7 +58,9 @@
     "comentarios": [
       "Variedad de estilos",
       "Buen servicio"
-    ]
+    ],
+    "email": "info@modatrendy.es",
+    "telf_contacto": "+34 654 321 098"
   },
   {
     "cif": "B98765432",
@@ -75,7 +81,9 @@
       "hola",
       "adios",
       "adios"
-    ]
+    ],
+    "email": "info@hostalbarcelona.net",
+    "telf_contacto": "+34 789 012 345"
   },
   {
     "cif": "B13579246",
@@ -94,7 +102,9 @@
     "comentarios": [
       "Buena atención",
       "Ambiente relajado"
-    ]
+    ],
+    "email": "contacto@coffeebreak.com",
+    "telf_contacto": "+34 567 890 123"
   },
   {
     "cif": "B24680135",
@@ -113,7 +123,9 @@
     "comentarios": [
       "Experiencia relajante",
       "Profesionales"
-    ]
+    ],
+    "email": "info@relaxtotal.es",
+    "telf_contacto": "+34 987 654 321"
   },
   {
     "cif": "B36925814",
@@ -132,7 +144,9 @@
     "comentarios": [
       "Amplia selección",
       "Ambiente acogedor"
-    ]
+    ],
+    "email": "info@librosfascinantes.com",
+    "telf_contacto": "+34 654 321 098"
   },
   {
     "cif": "B48121639",
@@ -151,7 +165,9 @@
     "comentarios": [
       "Equipamiento de calidad",
       "Entrenadores expertos"
-    ]
+    ],
+    "email": "info@fitnessplus.es",
+    "telf_contacto": "+34 789 012 345"
   },
   {
     "cif": "B51015203",
@@ -170,7 +186,9 @@
     "comentarios": [
       "Productos de calidad",
       "Asesoramiento experto"
-    ]
+    ],
+    "email": "info@tecnologiainnovadora.com",
+    "telf_contacto": "+34 987 654 321"
   },
   {
     "cif": "B61320159",
@@ -189,7 +207,9 @@
     "comentarios": [
       "Experiencia cultural única",
       "Obras impresionantes"
-    ]
+    ],
+    "email": "info@arteenvivo.es",
+    "telf_contacto": "+34 567 890 123"
   },
   {
     "cif": "B71628214",
@@ -208,7 +228,9 @@
     "comentarios": [
       "Actuaciones asombrosas",
       "Ambiente teatral"
-    ]
+    ],
+    "email": "info@teatroespectaculos.com",
+    "telf_contacto": "+34 654 321 098"
   },
   {
     "cif": "B81932468",
@@ -227,7 +249,9 @@
     "comentarios": [
       "Profesionales talentosos",
       "Servicio personalizado"
-    ]
+    ],
+    "email": "info@estilounico.com",
+    "telf_contacto": "+34 789 012 345"
   },
   {
     "cif": "B92235647",
@@ -246,7 +270,9 @@
     "comentarios": [
       "Organización impecable",
       "Experiencias inolvidables"
-    ]
+    ],
+    "email": "info@viajesexoticos.es",
+    "telf_contacto": "+34 987 654 321"
   },
   {
     "cif": "B10244856",
@@ -265,7 +291,9 @@
     "comentarios": [
       "Selección cinematográfica única",
       "Ambiente acogedor"
-    ]
+    ],
+    "email": "info@cinearte.es",
+    "telf_contacto": "+34 654 321 098"
   },
   {
     "cif": "B11347265",
@@ -284,7 +312,9 @@
     "comentarios": [
       "Pan de alta calidad",
       "Atención amigable"
-    ]
+    ],
+    "email": "info@artedelpan.com",
+    "telf_contacto": "+34 789 012 345"
   },
   {
     "cif": "B12449674",
@@ -303,82 +333,8 @@
     "comentarios": [
       "Enseñanza efectiva",
       "Ambiente educativo"
-    ]
-  },
-  {
-    "cif": "B13552083",
-    "ciudad": "Barcelona",
-    "actividad": "Centro de Yoga",
-    "titulo": "Yoga Zen",
-    "resumen": "Encuentra equilibrio y bienestar en nuestro centro.",
-    "textos": [
-      "Conecta cuerpo y mente a través del yoga"
     ],
-    "fotos": [
-      "yoga_espacio.jpg",
-      "clases_yoga.jpg"
-    ],
-    "estrellas": 4,
-    "comentarios": [
-      "Profesores expertos",
-      "Ambiente sereno"
-    ]
-  },
-  {
-    "cif": "B14654492",
-    "ciudad": "Sevilla",
-    "actividad": "Estudio de Diseño",
-    "titulo": "Creatividad Ilimitada",
-    "resumen": "Diseño innovador y soluciones creativas para tu proyecto.",
-    "textos": [
-      "Transforma tus ideas en realidad con nuestro equipo"
-    ],
-    "fotos": [
-      "estudio_diseno_espacio.jpg",
-      "proyectos_variados.jpg"
-    ],
-    "estrellas": 5,
-    "comentarios": [
-      "Diseño excepcional",
-      "Profesionales creativos"
-    ]
-  },
-  {
-    "cif": "B15756901",
-    "ciudad": "Madrid",
-    "actividad": "Centro de Arte",
-    "titulo": "Arte en Movimiento",
-    "resumen": "Descubre la expresión artística en todas sus formas.",
-    "textos": [
-      "Explora nuestras exposiciones y eventos culturales"
-    ],
-    "fotos": [
-      "centro_arte_espacio.jpg",
-      "obras_artistas.jpg"
-    ],
-    "estrellas": 4,
-    "comentarios": [
-      "Diversidad artística",
-      "Eventos emocionantes"
-    ]
-  },
-  {
-    "cif": "B16859310",
-    "ciudad": "Palencia",
-    "actividad": "Joyería2",
-    "titulo": "Joyas Elegantes",
-    "resumen": "Adorna tu vida con nuestras piezas únicas y elegantes.",
-    "textos": [
-      "Descubre la belleza de nuestras joyas"
-    ],
-    "fotos": [
-      "joyeria_interior.jpg",
-      "joyas_variadas.jpg"
-    ],
-    "estrellas": 4,
-    "comentarios": [
-      "Piezas de calidad",
-      "Atención personalizada"
-    ]
+    "email": "info@linguamundo.es",
+    "telf_contacto": "+34 987 654 321"
   }
 ]

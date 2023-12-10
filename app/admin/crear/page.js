@@ -6,6 +6,8 @@ import {useRef, useState} from "react";
 export default function HomeAdminCrearComercio() {
     const
         [cif, set_cif] = useState(""),
+        [email, set_email] = useState(""),
+        [telf_contacto, set_telf_contacto] = useState(""),
         [ciudad, set_ciudad] = useState(""),
         [actividad, set_actividad] = useState(""),
         [titulo, set_titulo] = useState(""),
@@ -20,6 +22,8 @@ export default function HomeAdminCrearComercio() {
 
         const datos = {
             cif: cif,
+            email: email,
+            telf_contacto: telf_contacto,
             ciudad: ciudad,
             actividad: actividad,
             titulo: titulo,
@@ -59,7 +63,7 @@ export default function HomeAdminCrearComercio() {
             <div className="">
                 <h1 className="text-center">Creando comercio</h1>
 
-                <form onSubmit={crear}>
+                <form onSubmit={crear} className='text-end'>
                     <div className="form-floating mb-3">
                         <input onChange={(e) => set_cif(e.target.value)}
                                required type="text" className="form-control" id="cif"/>
@@ -70,6 +74,18 @@ export default function HomeAdminCrearComercio() {
                         <input onChange={(e) => set_estrellas(parseInt(e.target.value))}
                                type="number" className="form-control" min="0" max="5" id="estrellas"></input>
                         <label htmlFor="estrellas">Estrellas (0 - 5)</label>
+                    </div>
+
+                    <div className="form-floating mb-3">
+                        <input onChange={(e) => set_email(e.target.value)}
+                               required type="email" className="form-control" id="email"/>
+                        <label htmlFor="email">Email</label>
+                    </div>
+
+                    <div className="form-floating mb-3">
+                        <input onChange={(e) => set_telf_contacto(e.target.value)}
+                               required type="text" className="form-control" id="telf_contacto"/>
+                        <label htmlFor="telf_contacto">Telefono de contacto</label>
                     </div>
 
                     <div className="form-floating mb-3">

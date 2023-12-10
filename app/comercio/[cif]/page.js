@@ -18,9 +18,9 @@ export default function HomeComercio({params}) {
         <main className="container">
             <Navbar/>
 
-            <div className={localStorage.getItem('email') ? "row my-5" : "d-none"}>
-                <Link href={`/comercio/${params.cif}/resenia`} className={"col btn btn-primary"}>Nueva reseña</Link>
-                <Link href={`/comercio/${params.cif}/logged`} className={localStorage.getItem('tipo') === 'admin' ? "col btn btn-primary" : 'd-none'}>Editar comercio</Link>
+            <div className={localStorage.getItem('email') ? "text-end my-5" : "d-none"}>
+                <Link href={`/comercio/${params.cif}/resenia`} className={"btn btn-primary me-1"}>Nueva reseña</Link>
+                <Link href={`/comercio/${params.cif}/logged`} className={localStorage.getItem('tipo') === 'admin' ? "btn btn-warning ms-1" : 'd-none'}>Editar comercio</Link>
             </div>
 
             <ul className="list-group">

@@ -15,6 +15,12 @@ export default function Comercio({comercio, resumido = true}) {
             <p className="lead">{comercio.resumen}</p>
 
             <div className={resumido ? "d-none" : ""}>
+                <p className="display-6">Email:</p>
+                <p className="lead">{comercio.email}</p>
+
+                <p className="display-6">Telefono de contacto:</p>
+                <p className="lead">{comercio.telf_contacto}</p>
+
                 <p className="display-6">Textos</p>
                 <ul className="list-group">
                     {
