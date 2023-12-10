@@ -46,6 +46,7 @@ export async function DELETE(request) {
         const comercios = JSON.parse(readFileSync("data/comercios.json"))
         const comercios_filtrados = comercios.filter((c) => c.cif !== data.cif)
         writeFileSync("data/comercios.json", JSON.stringify([...comercios_filtrados]))
+
         return NextResponse.json({message: "Comercio eliminado...", status: 200})
     } catch (e) {
         return NextResponse.json({message: "Comercio no existe...", status: 400})

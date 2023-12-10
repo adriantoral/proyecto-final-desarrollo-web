@@ -4,7 +4,7 @@ import {useRef, useState} from "react"
 import Volver from "@/components/volver";
 import {useRouter} from "next/navigation";
 
-export default function Signup() {
+export default function HomeSignup() {
     const
         [email, set_email] = useState(""),
         [ciudad, set_ciudad] = useState(""),

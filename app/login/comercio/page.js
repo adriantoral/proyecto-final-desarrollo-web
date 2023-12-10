@@ -4,7 +4,7 @@ import {useState} from "react"
 import Volver from "@/components/volver";
 import {useRouter} from "next/navigation";
 
-export default function LoginComercio() {
+export default function HomeLoginComercio() {
     const
         [cif, set_cif] = useState(""),
         router = useRouter()
@@ -30,7 +30,8 @@ export default function LoginComercio() {
                         localStorage.setItem('cif', cif)
                         router.push(`/comercio/${cif}/logged`)
                     }
-                } className="btn btn-primary w-25" type="button">Login</button>
+                } className="btn btn-primary w-25" type="button">Login
+                </button>
             </div>
         </main>
     );

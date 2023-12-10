@@ -9,5 +9,6 @@ export async function POST(request) {
     } catch (e) {
         writeFileSync("data/users.json", JSON.stringify([data]))
     }
+
     return NextResponse.json({message: "Guardando datos...", status: 200})
 }

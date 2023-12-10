@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar";
 import {useRef, useState} from "react";
 import {useRouter} from "next/navigation";
 
-export default function HomeComercio({params}) {
+export default function HomeComercioComentario({params}) {
     const
         [comentario, set_comentario] = useState(""),
         alerta = useRef(),
@@ -68,5 +68,3 @@ export default function HomeComercio({params}) {
     )
 
 }
-
-

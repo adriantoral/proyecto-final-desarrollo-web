@@ -47,6 +47,7 @@ export async function DELETE(request) {
         const users = JSON.parse(readFileSync("data/users.json"))
         const users_filtrados = users.filter((u) => u.email !== data.email)
         writeFileSync("data/users.json", JSON.stringify([...users_filtrados]))
+
         return NextResponse.json({message: "Usuario eliminado...", status: 200})
     } catch (e) {
         return NextResponse.json({message: "Usuario no existe...", status: 400})

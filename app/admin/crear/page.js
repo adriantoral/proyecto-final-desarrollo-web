@@ -3,7 +3,7 @@
 import Navbar from "@/components/navbar";
 import {useRef, useState} from "react";
 
-export default function HomeComercioLogged({params}) {
+export default function HomeAdminCrearComercio() {
     const
         [cif, set_cif] = useState(""),
         [ciudad, set_ciudad] = useState(""),
@@ -114,5 +114,3 @@ export default function HomeComercioLogged({params}) {
         </main>
     )
 }
-
-

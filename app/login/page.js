@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Volver from "@/components/volver";
 
-export default function Login() {
+export default function HomeLogin() {
     return (
         <main className="container">
             <Volver/>
