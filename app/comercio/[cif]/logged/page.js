@@ -67,7 +67,10 @@ export default function HomeComercioLogged({params}) {
             })
                 .then((res) => res.json())
                 .then((data) => {
-                    if (data.status === 200) router.push("/")
+                    if (data.status === 200) {
+                        localStorage.removeItem('cif')
+                        router.push("/")
+                    }
                 })
         }, 2000)
     }
@@ -77,7 +80,7 @@ export default function HomeComercioLogged({params}) {
 
         if (localStorage.getItem('cif') !== comercio.cif) return (
             <div className="text-center">
-                <h1>No tienes permisos para ver este comercio</h1>
+                <h1>No tienes permisos para editar este comercio</h1>
                 <Link href="/">Volver</Link>
             </div>
         )
@@ -169,7 +172,7 @@ export default function HomeComercioLogged({params}) {
 
     return (
         <div className="text-center">
-            <h1>Comercio no existe...</h1>
+            <h1>No existe el comercio</h1>
             <Link href="/">Volver</Link>
         </div>
     )

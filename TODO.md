@@ -7,7 +7,7 @@
 - [ ] Agregar que el admin, pueda crear comercios
 - [x] Actualizar que cuando se logea un comercio, actualice sus datos
 - [x] Agregar la opcion de borrar su propio comercio
-- [ ] Agregar que el usuario pueda modificar su cuenta
+- [x] Agregar que el usuario pueda modificar su cuenta
 
 # Estructura de las paginas
 

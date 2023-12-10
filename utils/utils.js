@@ -13,3 +13,14 @@ export function get_comercio_client(set_comercios, set_comercios_filtrados = und
             }
         })
 }
+
+export function get_usuarios_client(set_usuarios, set_usuarios_filtrados = undefined, email = undefined) {
+    fetch(email ? `http://localhost:3000/api/users?email=${email}` : "http://localhost:3000/api/users")
+        .then((res) => res.json())
+        .then((data) => {
+            if (data.status === 200) {
+                set_usuarios(data.users)
+                if (set_usuarios_filtrados) set_usuarios_filtrados(data.users)
+            }
+        })
+}

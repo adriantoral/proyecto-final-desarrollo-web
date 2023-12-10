@@ -58,7 +58,7 @@ export default function Navbar() {
 
                     <ul className={logeado && !admin ? "navbar-nav me-auto mb-2 mb-lg-0" : "d-none"}>
                         <li className="nav-item">
-                            <button className="nav-link">Cuenta: {localStorage.getItem('email')}</button>
+                            <Link href="/cuenta" className="nav-link">Cuenta: {localStorage.getItem('email')}</Link>
                         </li>
 
                         <li className="nav-item">
@@ -72,21 +72,7 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <button className="nav-link">Cuenta: {localStorage.getItem('email')}</button>
-                        </li>
-
-                        <li className="nav-item">
-                            <button className="nav-link" onClick={logout}>Logout</button>
-                        </li>
-                    </ul>
-
-                    <ul className={logeado && admin ? "navbar-nav me-auto mb-2 mb-lg-0" : "d-none"}>
-                        <li className="nav-item">
-                            <Link className="nav-link" href="/admin">Administración</Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <button className="nav-link">Cuenta: {localStorage.getItem('email')}</button>
+                            <Link href="/cuenta" className="nav-link">Cuenta: {localStorage.getItem('email')}</Link>
                         </li>
 
                         <li className="nav-item">
