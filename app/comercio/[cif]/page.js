@@ -20,6 +20,7 @@ export default function HomeComercio({params}) {
 
             <div className={localStorage.getItem('email') ? "row my-5" : "d-none"}>
                 <Link href={`/comercio/${params.cif}/resenia`} className={"col btn btn-primary"}>Nueva reseña</Link>
+                <Link href={`/comercio/${params.cif}/logged`} className={localStorage.getItem('tipo') === 'admin' ? "col btn btn-primary" : 'd-none'}>Editar comercio</Link>
             </div>
 
             <ul className="list-group">

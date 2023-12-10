@@ -78,7 +78,7 @@ export default function HomeComercioLogged({params}) {
     if (comercios.length > 0) {
         const comercio = comercios[0]
 
-        if (localStorage.getItem('cif') !== comercio.cif) return (
+        if (localStorage.getItem('cif') !== comercio.cif && localStorage.getItem('tipo') !== 'admin') return (
             <div className="text-center">
                 <h1>No tienes permisos para editar este comercio</h1>
                 <Link href="/">Volver</Link>
