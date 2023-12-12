@@ -15,7 +15,10 @@ export default function Navbar() {
         router = useRouter()
 
     const logout = () => {
-        if (logeado) localStorage.removeItem("email")
+        if (logeado) {
+            localStorage.removeItem("email")
+            localStorage.removeItem("tipo")
+        }
         if (logeado_comercio) localStorage.removeItem("cif")
         alerta.current.classList.remove("d-none")
         set_logeado(undefined)

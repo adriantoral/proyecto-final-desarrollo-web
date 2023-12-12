@@ -197,7 +197,7 @@ export default function HomeComercioLogged({params}) {
     return (
         <div className="text-center">
             <h1>No existe el comercio</h1>
-            <Link href="/">Volver</Link>
+            <Link href="/" onClick={() => localStorage.removeItem('cif')}>Volver</Link>
         </div>
     )
 }
