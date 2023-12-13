@@ -8,9 +8,9 @@
 - [x] Actualizar que cuando se logea un comercio, actualice sus datos
 - [x] Agregar la opcion de borrar su propio comercio
 - [x] Agregar que el usuario pueda modificar su cuenta
-- [ ] Agregar imagenes a los comercios (Image)
+- [x] Agregar imagenes a los comercios (Image)
 - [ ] Agregar que los comercios puedan ver los usuarios de la zona y filtrados
-- [ ] Agregar scoring a los comentarios
+- [x] Agregar scoring a los comentarios
 
 # Estructura de las paginas
 

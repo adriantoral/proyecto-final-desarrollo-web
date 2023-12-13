@@ -17,7 +17,6 @@ export default function HomeComercioLogged({params}) {
         [resumen, set_resumen] = useState(""),
         [textos, set_textos] = useState(""),
         [fotos, set_fotos] = useState(""),
-        [estrellas, set_estrellas] = useState(0),
         alerta = useRef(),
         eliminado = useRef(),
         eliminado2 = useRef(),
@@ -40,7 +39,6 @@ export default function HomeComercioLogged({params}) {
             resumen: resumen ? resumen : comercios[0].resumen,
             textos: textos ? textos.split(',') : comercios[0].textos,
             fotos: fotos ? fotos.split(',') : comercios[0].fotos,
-            estrellas: estrellas ? estrellas : comercios[0].estrellas,
         }
 
         fetch("/api/comercios", {
@@ -142,12 +140,6 @@ export default function HomeComercioLogged({params}) {
                             <input onChange={(e) => set_telf_contacto(e.target.value)}
                                    required type="text" className="form-control" id="telf_contacto" defaultValue={comercio.telf_contacto}/>
                             <label htmlFor="telf_contacto">Telefono de contacto</label>
-                        </div>
-
-                        <div className="form-floating mb-3">
-                            <input onChange={(e) => set_estrellas(parseInt(e.target.value))}
-                                   type="number" className="form-control" min="0" max="5" id="estrellas" defaultValue={comercio.estrellas}></input>
-                            <label htmlFor="estrellas">Estrellas (0 - 5)</label>
                         </div>
 
                         <div className="form-floating mb-3">

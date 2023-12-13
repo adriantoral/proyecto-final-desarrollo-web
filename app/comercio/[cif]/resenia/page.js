@@ -7,6 +7,7 @@ import {useRouter} from "next/navigation";
 export default function HomeComercioComentario({params}) {
     const
         [comentario, set_comentario] = useState(""),
+        [estrellas, set_estrellas] = useState(0),
         alerta = useRef(),
         router = useRouter()
 
@@ -19,7 +20,8 @@ export default function HomeComercioComentario({params}) {
             },
             body: JSON.stringify({
                 cif: params.cif,
-                comentario: `${localStorage.getItem('email')}: ${comentario}`
+                comentario: `${localStorage.getItem('email')}: ${comentario}`,
+                estrellas: estrellas
             })
         })
             .then((res) => res.json())
@@ -58,6 +60,12 @@ export default function HomeComercioComentario({params}) {
                             }/>
                             <label htmlFor="comentario">Comentario</label>
                         </div>
+                    </div>
+
+                    <div className="form-floating mb-3">
+                        <input onChange={(e) => set_estrellas(parseInt(e.target.value))}
+                               type="number" className="form-control" min="0" max="5" id="estrellas" defaultValue={estrellas}></input>
+                        <label htmlFor="estrellas">Puntuacion (0 - 5)</label>
                     </div>
 
                     <button className="btn btn-primary w-25" type="submit">Crear reseña</button>
