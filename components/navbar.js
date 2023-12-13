@@ -93,6 +93,10 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item">
+                            <Link className="nav-link" href={`/comercio/${logeado_comercio}/clientes`}>Ver clientes</Link>
+                        </li>
+
+                        <li className="nav-item">
                             <button className="nav-link">Comercio: {localStorage.getItem('cif')}</button>
                         </li>
 
